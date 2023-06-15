@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css
+
+
+
+        " />
+  <title>Hello, world!</title>
+
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+
+      font-family: Nunito Sans, sans-serif;
+      overflow-x: hidden;
+    }
+
+    .wrapper {
+      background-image: url(https://www.ubitechsolutions.com/_next/static/media/low-poly-bg.e3a207c8f2c3f6fb26bf468a8d61b8de.svg);
+
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px 5px;
+    }
+
+    header h3 span {
+      color: rgb(226, 73, 17);
+
+    }
+
+
+
+    ul {
+      display: flex;
+      justify-content: space-between;
+
+    }
+
+    ul li {
+      list-style: none;
+      margin: 0px 25px;
+      color: rgb(44, 42, 42);
+      font-size: 20px;
+
+    }
+
+    .btn {
+      background-color: orangered;
+      color: white;
+    }
+
+
+    .about {
+
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 50px;
+      padding: 0px 50px;
+    }
+
+    .about .content h1 {
+      color: rgb(86, 80, 80);
+      font-size: 40px;
+      font-weight: bolder;
+      padding: 7px;
+    }
+
+    .about .content p {
+      color: rgb(39, 36, 36);
+    }
+
+    .show2 {
+      display: flex;
+      justify-content: space-between;
+    }
+
+
+
+
+    .companies-section {
+      margin: 30px 0px;
+      padding: 10px 0px;
+      /* background-color: gray; */
+    }
+
+    .companies-section .logos {
+      margin-bottom: 30px;
+    }
+
+    .tag-line {
+      width: 60%;
+      margin: auto;
+      height: 2px;
+      background-color: orangered;
+    }
+
+    .companies-section .logos img {
+      margin: auto 10px;
+      padding: 20px;
+    }
+
+    .companies-section .logos img {
+      width: 12%;
+    }
+
+    .hr-content {
+      text-align: center;
+      margin: 20px 0px;
+      /* background-color: gray; */
+    }
+
+    .hr-content .first-content span {
+      color: orangered;
+    }
+
+    .hr-content .first-content {
+      text-align: center;
+
+    }
+
+    .hr-content .second-content p {
+      color: rgb(59, 55, 55);
+      text-align: center;
+      font-family: sans-serif;
+      padding: 10px;
+
+
+    }
+
+    .card-section {
+      width: 100%;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+      padding: 20px;
+
+
+    }
+
+    .card-section .cards {
+      height: 400px;
+      width: 350px;
+      box-shadow: 0px 4px 7px 2.5px rgb(177, 170, 170);
+      overflow: hidden;
+      margin: 20px;
+
+    }
+
+    .card-section .cards img {
+      padding: 12px 10px;
+      margin: 0px 20px;
+      /* background-color: green; */
+    }
+
+    .card-section .cards .intro {
+      padding: 8px 10px;
+      margin: 10px 20px;
+
+    }
+
+    .card-section .cards .intro h5 {
+      margin-bottom: 12px;
+    }
+
+    .card-section .cards .intro p {
+      padding: 7px 0px;
+    }
+
+    .card-section .cards p {
+      margin: 0.5rem 0px;
+      padding: auto;
+    }
+
+    .card-section .intro h4 {
+      color: orangered;
+    }
+
+    .card-section .special-child {
+      margin-top: 90px;
+    }
+
+
+    .cards4{
+    width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.cards4 .card5{
+    /* border: 2px solid green; */
+    width: 300px;
+    height: 300px;
+    margin: 30px 20px;
+    padding: 10px 20px;
+    border-top: 1px solid rgb(134, 121, 121);
+    box-shadow:  0px 4px 7px 2.5px rgb(177, 170, 170);
+
+
+}
+.cards4 .card5  img{
+    padding: 10px 30px;
+}
+.cards4 .card5  .pic3{
+    height: 55%;
+}
+.cards4 .card5  h2{
+    
+    padding: 10px 30px;
+}
+.cards4 .card5 p{
+    padding: 10px 30px;
+}
+.cards4 .card5 .pic6{
+    height: 40%;
+}
+
+
+.forms{
+    width: 100%;
+    background-color: orangered;
+    height: 900px;
+    position: relative;
+        padding: 80px;
+
+    /* top: 20px; */
+}
+
+
+
+/* .container {
+   
+    /* padding: 50px 0px; */
+    /* background-color: white;
+    width: 900px;
+    height: 600px;
+    border: 2px  solid green;
+   
+
+} */ */
+.forms .container .row{
+    padding: 30px 0px;
+}
+
+
+.forms .container .row input{
+    padding: 20px;
+}
+
+.forms .data{
+color: white;
+text-align: center;
+padding-bottom: 12px;
+margin: 10px 0px;
+
+}
+.forms .data h1{
+    margin-bottom: 10px;
+}
+.forms .container .small-but{
+    padding: 10px 90px;
+    background-color: orangered;
+    border-radius: 9px;
+}
+  </style>
+
+
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-fluid py-3 px-2 flex items-center justify-center mx-auto">
+        <a class="navbar-brand" href="#">UBITECH <span>SOLUTIONS</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Company</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Customers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Careers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blogs</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <button class="btn px-4" type="submit">Contact</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <header class="container-fluid ">
+      <div class="row about ">
+        <div class="col-lg-6 col-sm-12 content">
+          <h1>
+            One stop Software <br />
+            suite for every <br />
+            Business
+          </h1>
+          <p>
+            Recognized in one of the top trusted Enterprise <br />
+            Solution companies of India. We offer complete <br />
+            Digital Transformation
+          </p>
+        </div>
+        <div class="col-lg-6 col-sm-12">
+          <div class="image">
+            <img
+              src="https://www.ubitechsolutions.com/nextimg/%2F_next%2Fstatic%2Fimage%2Fpublic%2Fimages%2Fhero-main.a99d35d3bff4061bbfb7a14fc2a74afd.png/640/75?url=%2F_next%2Fstatic%2Fimage%2Fpublic%2Fimages%2Fhero-main.a99d35d3bff4061bbfb7a14fc2a74afd.png&w=640&q=75"
+              alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+  </div>
+
+
+
+
+
+  <div class="container-fluid companies-section">
+    <div class="row logos">
+      <div class="col-lg-2 ">
+        <img src="https://www.ubitechsolutions.com/_next/image?url=%2Fbrands%2Fnational%2Fbpcllogo.png&w=128&q=75"
+          alt="" />
+      </div>
+      <div class="col-lg-2">
+
+        <img src="	https://www.ubitechsolutions.com/_next/image?url=%2Fbrands%2Fall%2Fmotherdairy.jpg&w=128&q=75"
+          alt="" />
+
+      </div>
+      <div class="col-lg-2">
+        <img src="	https://www.ubitechsolutions.com/_next/image?url=%2Fbrands%2Fall%2FBhatia.png&w=128&q=75" alt="" />
+      </div>
+      <div class="col-lg-2">
+        <img src="https://www.ubitechsolutions.com/_next/image?url=%2Fbrands%2Fall%2Fwelspun-logo.png&w=128&q=75"
+          alt="" />
+      </div>
+      <div class="col-lg-2">
+        <img src="https://www.ubitechsolutions.com/_next/image?url=%2Fbrands%2Fnational%2Fig-logo.png&w=128&q=75"
+          alt="" />
+      </div>
+      <div class="col-lg-2">
+        <img src="https://www.ubitechsolutions.com/_next/image?url=%2Fbrands%2Fall%2FBhatia.png&w=128&q=75" alt="" />
+      </div>
+
+
+
+
+
+    </div>
+
+  </div>
+
+
+
+
+  <div class="container-fluid hr-content">
+    <div class="row first-content text-center">
+      <h3>
+        HR Software Suite – Powerful together,
+        <br />
+        <span>Potent alone</span>
+      </h3>
+    </div>
+
+    <div class=" row second-content ">
+      <p>
+        Integrated HR management Software that works exactly the way you want.
+        Automate your entire Manpower function…All that you had dreamed of &
+        hoped for. Organization structuring, Performance management or…Payroll
+        generation…ubiHRM works like magic to manage people and processes. The
+        HRM software suite comes with Ubitech’s commitment to quality &
+        service. Built in collaboration with HR Consultants with global
+        expertise.
+      </p>
+    </div>
+  </div>
+
+
+
+  <div class="container card-section">
+    <div class="row cards">
+      <div class="col-lg-3  col-md-6 col-sm-12">
+        <img
+          src="https://www.ubitechsolutions.com/nextimg/%2F_next%2Fstatic%2Fimage%2Fpublic%2Fimages%2Frecruitment-icon.785931fb746bfd3e53f78b75c7ebe211.png/96/75?url=%2F_next%2Fstatic%2Fimage%2Fpublic%2Fimages%2Frecruitment-icon.785931fb746bfd3e53f78b75c7ebe211.png&w=96&q=75"
+          alt="" />
+        <div class="intro">
+          <h5>Recruitment Software</h5>
+          <p>
+            Automate your entire Recruiting process from advertising the job
+            openings to selecting the Applicants.
+          </p>
+          <h4>Learn more</h4>
+        </div>
+      </div>
+
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-12 ">
+      <div class="cards special-child">
+        <img
+          src="https://www.ubitechsolutions.com/nextimg/%2F_next%2Fstatic%2Fimage%2Fpublic%2Fimages%2Faptitude-icon.e88a8c5d987ce711b4a7b80aad800644.png/96/75?url=%2F_next%2Fstatic%2Fimage%2Fpublic%2Fimages%2Faptitude-icon.e88a8c5d987ce711b4a7b80aad800644.png&w=96&q=75"
+          alt="" />
+        <div class="intro">
+          <h5>Recruitment Software</h5>
+          <p>
+            Automate your entire Recruiting process from advertising the job
+            openings to selecting the Applicants.
+          </p>
+          <h4>Learn more</h4>
+        </div>
+      </div>
+
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-12">
+      <div class="cards">
+        <img
+          src="https://www.ubitechsolutions.com/nextimg/%2F_next%2Fstatic%2Fimage%2Fpublic%2Fimages%2Fattendance-icon.bbd3279d2e837c36b4c7c28c009462df.png/96/75?url=%2F_next%2Fstatic%2Fimage%2Fpublic%2Fimages%2Fattendance-icon.bbd3279d2e837c36b4c7c28c009462df.png&w=96&q=75"
+          alt="" />
+        <div class="intro">
+          <h5>Recruitment Software</h5>
+          <p>
+            Automate your entire Recruiting process from advertising the job
+            openings to selecting the Applicants.
+          </p>
+          <h4>Learn more</h4>
+        </div>
+      </div>
+
+    </div>
+    <div class="col-lg-3 col-md-6 col-sm-12">
+      
+        <div class="cards special-child">
+          <img
+            src="https://www.ubitechsolutions.com/nextimg/%2F_next%2Fstatic%2Fimage%2Fpublic%2Fimages%2Fshift-icon.94d19d42c43d96249ecab8003dc57efa.png/96/75?url=%2F_next%2Fstatic%2Fimage%2Fpublic%2Fimages%2Fshift-icon.94d19d42c43d96249ecab8003dc57efa.png&w=96&q=75"
+            alt="" />
+          <div class="intro">
+            <h5>Recruitment Software</h5>
+            <p>
+              Automate your entire Recruiting process from advertising the job
+              openings to selecting the Applicants.
+            </p>
+            <h4>Learn more</h4>
+          </div>
+        
+      </div>
+
+    </div>
+  </div>
+  </div>
+
+
+ 
+
+  <div class="container compani-section">
+<div class="row  d-flex  justify-between">
+  <div class="col-lg-3 col-md-6 col-sm-12 logos">
+    <img
+        src="https://www.ubitechsolutions.com/nextimg/%2F_next%2Fstatic%2Fimage%2Fpublic%2Freviews%2Fgoogle_my_business.74da773e7b863e45b207227b73aa37c6.png/256/75?url=%2F_next%2Fstatic%2Fimage%2Fpublic%2Freviews%2Fgoogle_my_business.74da773e7b863e45b207227b73aa37c6.png&w=256&q=75"
+        alt=""
+        class="marquee"
+      />
+  </div>
+  <div class="col-lg-3 col-md-6 col-sm-12 logos">
+    <img
+    src="https://www.ubitechsolutions.com/nextimg/%2F_next%2Fstatic%2Fimage%2Fpublic%2Freviews%2Fgoogle_play.648c882c5be3442edfe5d45bf54e7c86.png/256/75?url=%2F_next%2Fstatic%2Fimage%2Fpublic%2Freviews%2Fgoogle_play.648c882c5be3442edfe5d45bf54e7c86.png&w=256&q=75"
+    alt=""
+  />
+
+  </div>
+  <div class="col-lg-3 col-md-6 col-sm-12 logos">
+    
+    <img
+        src="https://www.ubitechsolutions.com/nextimg/%2F_next%2Fstatic%2Fimage%2Fpublic%2Freviews%2FApp_store.eede9a48986f96ca7fc05e9a1c2b9fc5.png/256/75?url=%2F_next%2Fstatic%2Fimage%2Fpublic%2Freviews%2FApp_store.eede9a48986f96ca7fc05e9a1c2b9fc5.png&w=256&q=75"
+        alt=""
+      />
+
+  </div>
+  <div class="col-lg-3 col-md-6 col-sm-12 logos">
+    <img
+        src="https://www.ubitechsolutions.com/nextimg/%2F_next%2Fstatic%2Fimage%2Fpublic%2Freviews%2Fcrozdesk.244e302d3737bd36c2725f3372845516.png/256/75?url=%2F_next%2Fstatic%2Fimage%2Fpublic%2Freviews%2Fcrozdesk.244e302d3737bd36c2725f3372845516.png&w=256&q=75"
+        alt=""
+      />
+  </div>
+
+      
+    </div>
+
+  </div>
+
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-10">
+        <div class="tag-line"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid cards4">
+    <div class="row">
+    <div class=" col-lg-3  col-md-3 card5 ">
+      <img
+        src="https://www.ubitechsolutions.com/_next/image?url=%2Fbrands%2Fnational%2Fbpcllogo.png&w=128&q=75"
+        alt=""
+      />
+      <h2>Govt. & PSU Implementations</h2>
+      <p>September, 2020</p>
+    </div>
+    <div class="col-lg-3 col-md-3 card5">
+      <img
+        src="https://www.ubitechsolutions.com/_next/image?url=%2F_next%2Fstatic%2Fimage%2Fpublic%2Fpress%2Fapp_innovation.031adc399ce39971bf3b31f0991d052a.png&w=128&q=75"
+        alt=""
+        class="pic3"
+      />
+      <h2>Top Finalists in Digital India</h2>
+      <p>August, 2020</p>
+    </div>
+    <div class="col-lg-3 col-md-3 card5">
+      <img
+        src="https://www.ubitechsolutions.com/_next/image?url=%2F_next%2Fstatic%2Fimage%2Fpublic%2Fpress%2Fcio_logo.cf88c61fadcba9c4bc1da4064cd3c0b5.png&w=128&q=75"
+        alt=""
+      />
+      <h2>20 HR Technology Solution Providers</h2>
+      <p>March,2020</p>
+    </div>
+    <div class="col-lg-3 col-md-3 card5">
+      <img
+        src="https://www.ubitechsolutions.com/_next/image?url=%2F_next%2Fstatic%2Fimage%2Fpublic%2Fpress%2Fsilicon_india_logo.7185296ec8429cf45a1b096e9e7db977.png&w=128&q=75"
+        alt=""
+        class="pic6"
+      />
+      <h2>Govt. & PSU</h2>
+      <p>Implementations</p>
+    </div>
+    </div>
+  </div>
+
+
+
+
+
+
+  <div class="show">
+    <h4>Show more</h4>
+
+    <div class="tag-line"></div>
+  </div>
+
+  <!-- <div class="forms">
+    <div class="data">
+      <h1>Contact Us</h1>
+      <p>Take your business to the next level</p>
+    </div> -->
+
+
+
+
+
+
+
+
+  <div class="container show2">
+    <div class="row">
+      <div class="col-lg-6 col-md-12 col-sm-12 ">
+        <h1>Partner with Ubitech Solutions and <br>
+          give wings to your Business</h1>
+
+        <button class="btn px-5">Become a Partner</button>
+      </div>
+      <div class="  col-lg-6 ">
+        <img src="https://www.ubitechsolutions.com/_next/image?url=%2Fimages%2Fwings_illustration.svg&w=750&q=75" alt=""
+          width="700" height="300" class="show">
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container-fluid bg-dark text-center text-info">
+    <div class="row">
+      <h3>UBITECH <span> SOLUTIONS</span></h3>
+    </div>
+    <div class="row ">
+
+      <div class="col-12">
+        <i class="fab fa-facebook-f"></i>
+
+
+        <i class="fab fa-linkedin"></i>
+
+        <i class="fab fa-instagram"></i>
+      </div>
+
+
+    </div>
+
+  </div>
+
+
+  </div>
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+  
+  <!-- footer -->
+  <div class="container-fluid bg-dark  text-white  text-center my-1">
+    <div class="row">
+      <div class="col-lg-3 col-md-6 col-sm-12 px-4 ">
+        <h3>Company</h3>
+        <p>About Us</p>
+        <p>Why Us</p>
+        <p>Team</p>
+        <p>Press</p>
+        <p>Become a Partner</p>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 px-4">
+        <h3>Services</h3>
+        <p>About Us</p>
+        <p>Why Us</p>
+        <p>Team</p>
+        <p>Press</p>
+        <p>Become a Partner</p>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 px-4">
+        <h3>Customers</h3>
+        <p>Brands</p>
+        <p>Testimonials</p>
+        <p>customer Stories</p>
+
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12 px-4">
+        <h3>Contact Us</h3>
+
+        <p>Book a Demo</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container bg-light d-flex justify-between text-center my-2">
+    <div class="row">
+      <div class="col-lg-3 col-md-6 mx-5 ">
+        <p>Terms of Service
+          Privacy Policy</p>
+      </div>
+      <div class="col-lg-7">
+        <p>Call us: India: 1800 890 6670 UAE: +971 55-5524131
+          Send us an Email</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid bg-dark text-white text-center">
+    <div class="row">
+      <div class="div col-12">
+        <p>© 2023, UBITECH SOLUTIONS PVT LTD. ALL RIGHTS RESERVED</p>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

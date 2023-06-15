@@ -1,0 +1,50 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+.navbar{
+    background-color: aqua;
+    width: 80%;
+    height: 50vh;
+
+   
+}
+.navbar ul{
+    list-style: none;
+
+}
+.navbar ul li{
+    position: relative;
+    width: 290px;
+ 
+}
+.navbar ul li a{
+    text-decoration: none; 
+    color: black; 
+    padding: 2px;
+
+    display: block;
+}
+.navbar ul li a:hover{
+    background-color: aqua;
+}
+.navbar ul ul{
+    background-color: aqua;
+    position: absolute;
+    display: none;
+
+}
+.navbar ul ul {
+    left: 20%;
+    top: 10%;
+}
+.navbar ul ul ul{
+    left: 100%;
+    top: 0px;
+}
+.navbar ul li:hover > ul {
+    display: block;
+    
+
+}

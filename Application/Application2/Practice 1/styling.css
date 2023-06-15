@@ -1,0 +1,42 @@
+div {
+  padding: 12px;
+  margin: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  color: white;
+}
+.one {
+  background-color: red;
+}
+.two {
+  background-color: blue;
+}
+.three {
+  background-color: blueviolet;
+}
+.four {
+  background-color: chartreuse;
+}
+table {
+  width: 50%;
+
+  border-collapse: collapse;
+
+  margin: 50px auto;
+  padding: 67px;
+}
+
+th,
+td {
+  border: 2px solid black;
+  padding: 20px;
+  text-align: center;
+
+  font-size: 200;
+  font-style: 12px;
+}
+tr:nth-child(1) {
+  background-color: green;
+
+  color: white;
+}

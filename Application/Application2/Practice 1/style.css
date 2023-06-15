@@ -1,0 +1,28 @@
+body {
+  background-color: rgb(117, 218, 117);
+}
+.size {
+  width: 50%;
+
+  border-collapse: collapse;
+
+  margin: 50px auto;
+  padding: 67px;
+}
+.tag {
+  background-color: yellow;
+  
+}
+th,
+td {
+  border: none;
+  padding: 20px;
+  text-align: center;
+  color: black;
+  font-size: 200;
+  font-weight: bold;
+}
+.tag1 {
+  background-color: white;
+}
+

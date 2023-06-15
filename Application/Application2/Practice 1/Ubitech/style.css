@@ -1,0 +1,385 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Nunito Sans,sans-serif;
+}
+#container{
+    background-image: url(https://www.ubitechsolutions.com/_next/static/media/low-poly-bg.e3a207c8f2c3f6fb26bf468a8d61b8de.svg);
+    width: 100%;
+    height: 90%;
+    
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 5px;
+} 
+header h3 span{
+    color: rgb(226, 73, 17);
+
+}
+ ul {
+    display: flex;
+    justify-content: space-between;
+    
+}
+ul li {
+    list-style: none;
+    margin: 0px 25px;
+    color: rgb(44, 42, 42);
+    font-size: 20px;
+
+}
+
+
+button{
+    background-color:rgb(244, 94, 39);
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 7px 15px;
+
+}
+
+
+.about{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:  50px;
+    padding: 0px 50px;
+}
+
+.image{position: relative;
+justify-content: center;}
+.image img{
+    height: 400px;
+    z-index: -1;
+    width: 320px;
+   
+}
+
+ .image .circle{
+    position: absolute;
+    top: 15px;
+     left: -150px;
+    right: 190px; 
+    width: 600px;
+    height: 400px;
+    
+}
+.about .content h1{
+    color: rgb(86, 80, 80);
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 7px;
+}
+.about .content p{
+    color: rgb(39, 36, 36);
+}
+
+.companies-section{
+    margin: 30px 0px;
+    padding: 10px 0px;
+    /* background-color: gray; */
+}
+.companies-section .logos{
+    margin-bottom: 30px;
+}
+.tag-line{
+    width: 60%;
+    margin:  60px auto;
+    height: 2px;
+    background-color: orangered;
+}
+
+.companies-section .logos img{
+    margin: auto 10px;
+    padding: 20px;
+}
+.companies-section .logos img{
+    width: 12%;
+}
+
+.hr-content{
+    text-align: center;
+    margin: 20px 0px;
+    /* background-color: gray; */
+}
+
+.hr-content .first-content span{color: orangered;}
+.hr-content .first-content{
+    text-align: center;
+
+}
+.hr-content .second-content p{
+    color: rgb(59, 55, 55);
+    text-align: center;
+    font-family: sans-serif;
+    padding: 10px;
+
+
+}
+.card-section{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+margin: auto;
+padding: 20px;
+    
+    
+}
+  .card-section .cards{
+    height: 400px;
+    width: 350px;
+box-shadow:  0px 4px 7px 2.5px rgb(177, 170, 170);
+overflow: hidden;
+margin: 20px;
+    
+}
+
+.card-section .cards img{
+    padding: 12px 10px;
+    margin:  0px 20px;
+/* background-color: green; */
+}
+.card-section .cards .intro{
+    padding: 8px 10px;
+    margin:  10px 20px;
+   
+}
+.card-section .cards .intro h5{
+    margin-bottom: 12px;
+}
+.card-section .cards .intro p {
+    padding: 7px 0px;
+}
+.card-section .cards p{
+    margin: 0.5rem 0px;
+    padding: auto;
+}
+
+.card-section .intro h4{
+    color: orangered;
+}
+.card-section .special-child{
+    margin-top: 90px;
+}
+
+.compani-section .logos{
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+margin: auto;
+padding: 20px;
+}
+.compani-section  img{
+    width: 10%;
+    
+
+}
+/* 
+ .marquee {
+    animation: animate  5s linear  infinite;
+}
+@keyframes animate {
+    100%{
+        transform:translate(-100%,0) ;
+    }
+    
+} */
+.customer-section{
+    text-align: center;
+}
+.customer-section{
+    width: 100%;
+
+}
+
+
+.customer-section h1{
+    margin-bottom: 12px;
+}
+.customer-section  p span{
+    color: orangered;
+}
+
+
+ .container .client-section{
+    display: flex;
+}
+
+.client-section .cards2{
+    display: flex;
+    
+    
+}
+.client-section .cards2 img{
+    width: 6%;
+    height: 10%;
+    padding: 12px;
+    border-radius: 50%;
+
+
+}
+
+
+.client-section .cards2 .im{
+     /* padding: 20px; */
+     margin: 20px;
+     background-color: green;
+
+    
+}
+
+.card-section .cards{
+    height: 500px;
+z-index: -1;}
+.card-section .cards .pic2{
+    width: 30%;
+    border-radius: 50%;
+
+}
+
+.card-section .cards .card-1 img{
+    /* margin: 7px 5px; */
+    float: left;
+
+}
+
+
+.card-section .cards .card-2 h4{
+    margin-top: 7px;
+    padding:5px 0px; 
+
+}
+
+.card-section .cards .card-2 p{
+    margin-top: 5px 0px;
+}
+.card-section .cards .introduction{
+    margin-top: 30px;
+    padding: 30px 20px;
+    /* background-color: green; */
+}
+ .btn {
+    margin:  30px auto ;
+    text-align: center;
+background-color: rgb(247, 204, 211);
+width: 200px;
+border-radius: 12px;
+color: orangered;
+font-size:15px ;
+
+}
+
+.show h4{
+    text-align: center;
+    color: orangered;
+    text-decoration: underline;
+     
+}
+.show hr{
+    color:orangered;
+    background-color: orangered;
+    width: 12%;
+    /* text-decoration: underline; */
+    text-align: center;
+    
+}
+.press{
+    text-align: center;
+}
+.press p{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.cards4{
+    width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.cards4 .card5{
+    /* border: 2px solid green; */
+    width: 300px;
+    height: 300px;
+    margin: 30px 20px;
+    padding: 10px 20px;
+    border-top: 1px solid rgb(134, 121, 121);
+    box-shadow:  0px 4px 7px 2.5px rgb(177, 170, 170);
+
+
+}
+.cards4 .card5  img{
+    padding: 10px 30px;
+}
+.cards4 .card5  .pic3{
+    height: 55%;
+}
+.cards4 .card5  h2{
+    
+    padding: 10px 30px;
+}
+.cards4 .card5 p{
+    padding: 10px 30px;
+}
+.cards4 .card5 .pic6{
+    height: 40%;
+}
+
+
+.forms{
+    width: 100%;
+    background-color: orangered;
+    height: 900px;
+    position: relative;
+        padding: 80px;
+
+    /* top: 20px; */
+}
+
+
+
+.container {
+   
+    /* padding: 50px 0px; */
+    background-color: white;
+    width: 900px;
+    height: 600px;
+    border: 2px  solid green;
+   
+
+}
+.forms .container .row{
+    padding: 30px 0px;
+}
+
+
+.forms .container .row input{
+    padding: 20px;
+}
+
+.forms .data{
+color: white;
+text-align: center;
+padding-bottom: 12px;
+margin: 10px 0px;
+
+}
+.forms .data h1{
+    margin-bottom: 10px;
+}
+.forms .container .small-but{
+    padding: 10px 90px;
+    background-color: orangered;
+    border-radius: 9px;
+}
